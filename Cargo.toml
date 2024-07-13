@@ -1,0 +1,14 @@
+[package]
+name = "prompt-lint"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1"
+ngrammatic = "0.4"
+lazy_static = "1.4.0"
+symspell = "0.4.3"
+colored = "2.0"
+
+[profile.release]
+debug = true
